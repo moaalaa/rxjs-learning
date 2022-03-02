@@ -1,0 +1,16 @@
+{
+  "name": "rxjs-first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^7.5.4",
+    "ts-loader": "^9.2.7",
+    "typescript": "^4.6.2",
+    "webpack": "^5.69.1",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
