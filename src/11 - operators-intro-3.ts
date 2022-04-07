@@ -8,8 +8,7 @@ const observable = of(
         {message: 'Test is in the next line'},
     )
     .pipe(
-        pluck('message'),
-        map(data => data.toUpperCase() + ': ' + number++),
+        map(data => data.message.toUpperCase() + ': ' + number++),
     );
 
 const observable2 = from([
@@ -18,8 +17,7 @@ const observable2 = from([
         {message: 'Our test will be executed in 1 seconds'},
     ])
     .pipe(
-        pluck('message'),
-        map(data => data.toUpperCase() + ': ' + number++),
+        map(data => data.message.toUpperCase() + ': ' + number++),
     );
 
 
